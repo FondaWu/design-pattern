@@ -2,6 +2,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 
 mylogs/
+out/
 
 ### STS ###
 .apt_generated

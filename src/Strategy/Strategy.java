@@ -1,11 +1,8 @@
-package Strategy;
+package strategy;
 
 /**
  * Created by fondawu on 2019/3/20.
  */
-public class Strategy {
-    public static void main(String[] args)
-    {
-        System.out.println("Hello World!");
-    }
+public interface Strategy {
+    int doOperation(int num1, int num2);
 }
