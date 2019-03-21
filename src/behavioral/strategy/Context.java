@@ -1,4 +1,6 @@
-package strategy;
+package behavioral.strategy;
+
+import behavioral.strategy.operation.Strategy;
 
 /**
  * Created by fondawu on 2019/3/20.

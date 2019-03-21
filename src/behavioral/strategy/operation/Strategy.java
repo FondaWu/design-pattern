@@ -1,4 +1,4 @@
-package strategy;
+package behavioral.strategy.operation;
 
 /**
  * Created by fondawu on 2019/3/20.

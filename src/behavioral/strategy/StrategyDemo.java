@@ -1,9 +1,13 @@
-package strategy;
+package behavioral.strategy;
+
+import behavioral.strategy.operation.OperationAdd;
+import behavioral.strategy.operation.OperationMultiply;
+import behavioral.strategy.operation.OperationSubstract;
 
 /**
  * Created by fondawu on 2019/3/20.
  */
-public class Client {
+public class StrategyDemo {
     public static void main(String[] args) {
         Context context = new Context(new OperationAdd());
         System.out.println("10 + 5 = " + context.executeStrategy(10, 5));

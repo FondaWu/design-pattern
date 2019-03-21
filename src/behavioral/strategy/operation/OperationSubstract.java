@@ -1,11 +1,11 @@
-package strategy;
+package behavioral.strategy.operation;
 
 /**
  * Created by fondawu on 2019/3/20.
  */
-public class OperationAdd implements Strategy{
+public class OperationSubstract implements Strategy{
     @Override
     public int doOperation(int num1, int num2) {
-        return num1 + num2;
+        return num1 - num2;
     }
 }
